@@ -1,10 +1,13 @@
 body {
-    margin-top: 6rem;
     background-image: url('./media/djFondo2.jpg');
     font-family: Arial, sans-serif;
     background-size: cover;
     text-align: center;
     transition: background 1s, color 5s;
+}
+
+.toggle {
+    margin-top: 6rem;
 }
 
 .dark-mode {
