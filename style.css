@@ -1,0 +1,143 @@
+body {
+    background-image: url('./media/djFondo2.jpg');
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+    transition: background 1s, color 5s;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.profile-container {
+    width: 600px;
+    margin: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.profile-container:hover{
+    background: rgba(86, 86, 255, 0.305);
+}
+
+.profile-container:hover p{
+    color:white
+}
+.profile-container:hover h2 {
+    color: rgba(0,212,255,1)
+}
+.profile-container:hover h3 {
+    color: rgba(0,212,255,1)
+}
+
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-links a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+.social-links a:hover {
+    color: white
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #92a8d7;;
+}
+button:hover {
+    background: rgba(12, 97, 255, 0.597);
+    color: white;
+}
+.xboton:hover{
+    background-color: #2e2e2e;
+    color: white;
+}
+.iboton:hover{
+    background: #833ab4;
+    background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045
+    );
+}
+.yboton:hover{
+    background: #d61b1b;
+    color: white;
+}
+.twboton:hover{
+    background: #8e03ea;
+    color: white;
+}
+.tboton:hover {
+    background: rgb(255,0,0);
+    background: linear-gradient(32deg, rgba(255,0,0,1) 0%, rgba(1,1,1,1) 50%, rgba(10,26,199,1) 100%);
+    color: white;
+}
+.link-button:hover {
+    color: white;
+    background: radial-gradient(circle, rgba(13,44,194,0.768032212885154) 0%, rgba(190,21,39,1) 100%);
+}
+
+.bff-img:hover {
+    box-shadow: #e753e4;
+}
+
+.lista-amigos {
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.amigo1 {
+    margin-left: 1rem;
+}
+
+.friends-list, .best-friend {
+    margin-top: 10px;
+}
+
+.dark-mode .profile-container {
+    background: #444;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+audio {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #2e2e2e;
+    border-radius: 25px;
+    box-shadow: 5px 7px 7px 5px #000000;
+}
+
+
+.glow {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
