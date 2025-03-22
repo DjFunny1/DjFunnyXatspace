@@ -8,7 +8,11 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <div class="lock-screen" id="lock-screen">
+        <h2>Ingrese el PIN para desbloquear el perfil</h2>
+        <input type="password" id="pin-input" placeholder="Ingrese PIN">
+        <button onclick="unlockProfile()">Desbloquear</button>
+    </div>
     <button class="toggle" onclick="toggleDarkMode()">Modo Oscuro</button>
     <div class="profile-container">
         <div class="header">
