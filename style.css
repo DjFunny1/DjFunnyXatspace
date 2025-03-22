@@ -149,3 +149,18 @@ audio {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
+
+.lock-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:   url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjBmemxiZTdkajlvZWRxaGVhM3ZnN3ZuMzJydnVsczEya2FyMm4xbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5ehBR5qtLEXBe/giphy.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 17, 17);
+    flex-direction: column;
+}
