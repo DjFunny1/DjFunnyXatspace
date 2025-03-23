@@ -6,10 +6,6 @@ body {
     transition: background 1s, color 5s;
 }
 
-.toggle {
-    margin-top: 6rem;
-}
-
 .dark-mode {
     background-color: #333;
     color: #f4f4f4;
@@ -19,7 +15,7 @@ body {
     width: 600px;
     margin: auto;
     background: rgb(2,0,36);
-    background: linear-gradient(45deg, rgba(2,0,36,0.7) 0%, rgba(9,9,121,0.7) 5%, rgba(0,212,255,0.7) 100%);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,212,255,1) 100%);
     padding: 20px;
     border-radius: 10px;
 }
@@ -94,10 +90,6 @@ button:hover {
 
 .bff-img:hover {
     box-shadow: #e753e4;
-}
-
-.bff-img3 {
-    border-radius: 50px;
 }
 
 .lista-amigos {
