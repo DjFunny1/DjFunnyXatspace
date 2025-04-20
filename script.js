@@ -3,5 +3,5 @@ function toggleDarkMode() {
 }
 function unlockProfile() {
     var pin = document.getElementById("pin-input").value;
-    if (pin === "1989") {
+    if (pin === "13016") {
         document.getElementById("lock-screen").style.display = "none";}}
